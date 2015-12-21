@@ -21,4 +21,5 @@ git log
 git commit --amend
 #log dengan online
 git log --online
-
+#untuk melihat perbedaan file yang belum di masukan ke staging index
+git diff File_A
