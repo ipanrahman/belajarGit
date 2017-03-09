@@ -31,4 +31,6 @@ git diff File_A
  git checkout -b testb
  #perintah untuk merge
  git merge master
+#untuk mengedit commentar commit 
+git commit --amend
 
