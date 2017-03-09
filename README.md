@@ -54,5 +54,7 @@ Switched to a new branch 'experimental'
 $ git branch
 * experimental
   master
-
+#Cara setting single repository
+git config user.email "your_email@example.com"
+git config user.email
 
