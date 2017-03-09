@@ -33,4 +33,26 @@ git diff File_A
  git merge master
 #untuk mengedit commentar commit 
 git commit --amend
+ -kemudian untuk push ke git repository nya
+git push --force example-branch
+# cara clone semua branch
+	git clone git://example.com/myproject
+	cd myproject
+	git branch
+$ git branch -a
+* master
+  remotes/origin/HEAD
+  remotes/origin/master
+  remotes/origin/v1.0-stable
+  remotes/origin/experimental
+If you just want to take a quick peek at an upstream branch, you can check it out directly
+$ git checkout origin/experimental
+$ git checkout -b experimental origin/experimental
+and you will see
+Branch experimental set up to track remote branch experimental from origin.
+Switched to a new branch 'experimental'
+$ git branch
+* experimental
+  master
+
 
