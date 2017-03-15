@@ -1,37 +1,37 @@
 ##BELAJAR GIT
-#cara install git di Linux ubuntu
+# cara install git di Linux ubuntu
     sudo apt-get install git
-#cara inisialisasi repository git
+# cara inisialisasi repository git
 git init
-#cara menambahkan file ke staging index
+# cara menambahkan file ke staging index
 git add . atau juga bisa menggunakan git add --al
-#update repository 
+# update repository 
 git commit -m "initial commit"
     -m : untuk menambahkan message
 git add . (dot) untuk memperoses semual file
-#cara untuk unstaging index
+# cara untuk unstaging index
 git reset HEAD : HEAD adalah mereset ke commit terakhir undo
-#cara reset soft reset dengan file detail
+# cara reset soft reset dengan file detail
 git reset HEAD File_A
-#untuk melihat status
+# untuk melihat status
 git status
-#untuk melihat log
+# untuk melihat log
 git log
-#membatalkan commit
+# membatalkan commit
 git commit --amend
-#log dengan online
+# log dengan online
 git log --online
-#untuk melihat perbedaan file yang belum di masukan ke staging index
+# untuk melihat perbedaan file yang belum di masukan ke staging index
 git diff File_A
-#untuk menambahkan branch
+# untuk menambahkan branch
  :example : git branch test_branch
- #switch ke branch 
+ # switch ke branch 
  git checkout test
- #perintah untuk membuat branch dan pilih ke branch tersebut
+ # perintah untuk membuat branch dan pilih ke branch tersebut
  git checkout -b testb
- #perintah untuk merge
+ # perintah untuk merge
  git merge master
-#untuk mengedit commentar commit 
+# untuk mengedit commentar commit 
 git commit --amend
  -kemudian untuk push ke git repository nya
 git push --force example-branch
