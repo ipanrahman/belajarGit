@@ -30,7 +30,6 @@
 ## perintah untuk membuat branch dan pilih ke branch tersebut
  git checkout -b testb
 ## perintah untuk merge
->>>>>>> f992e62e849a7bd18fd43356306639b01158689e
  git merge master
 # untuk mengedit commentar commit 
 git commit --amend
