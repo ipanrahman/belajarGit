@@ -25,10 +25,10 @@
     git diff File_A
 ## untuk menambahkan branch
  :example : git branch test_branch
- ### switch ke branch 
+## switch ke branch 
  git checkout test
- ### perintah untuk membuat branch dan pilih ke branch tersebut
+## perintah untuk membuat branch dan pilih ke branch tersebut
  git checkout -b testb
- ### perintah untuk merge
+## perintah untuk merge
  git merge master
 
