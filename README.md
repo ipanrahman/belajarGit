@@ -64,3 +64,12 @@ git config user.email
 # Delete Local Branch
  git branch -d branch_name
 
+# How to create tag
+```bash
+git tag v1.0.1
+```
+# How to delete tag
+```bash
+git tag - v1.0.1
+```
+
