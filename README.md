@@ -70,6 +70,6 @@ git tag v1.0.1
 ```
 # How to delete tag
 ```bash
-git tag - v1.0.1
+git tag -d v1.0.1
 ```
 
